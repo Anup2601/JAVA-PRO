@@ -11,5 +11,6 @@ public class area
         int area=l*b;
         System.out.print("the area of rectangle is :-");
         System.out.print(area);
+        sc.close();
     }
 }
