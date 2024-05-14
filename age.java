@@ -10,5 +10,7 @@ public class age{
     else{
         System.out.print("you are eligibal to vote\n");
     }
-    }
+    
+    sc.close();
+}
 }
