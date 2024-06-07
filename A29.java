@@ -1,14 +1,8 @@
+// polymorphism 
 class Shape{
-    int x;
-    int y;
-    void f1(){
-        System.out.println(x);
-        System.out.println(y);
-
-    }
-    void area(){
-
-    }
+     void area(){
+        
+     };
 }
 class Rectangle extends Shape{
     void area(){
@@ -34,5 +28,6 @@ class A29{
         s1.area();
         s2.area();
         s3.area();
+        // Shape s=new Shape();
     }
 }
